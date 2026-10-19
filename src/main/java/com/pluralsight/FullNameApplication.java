@@ -16,15 +16,9 @@ public class FullNameApplication {
         System.out.print("Enter your suffix: ");
         String suffix = scanner.nextLine();
 
-        String fullName = firstName + " " + lastName;
 
-        // Switch statement
-        switch(fullName){
-            case -> fullName = firstName + " " + middleName + " " + lastName + " " + suffix;
-        }
-
+        String fullName = firstName + " " + middleName + " " + lastName + " " + suffix;
         System.out.println(fullName);
-
         scanner.close();
 
 
