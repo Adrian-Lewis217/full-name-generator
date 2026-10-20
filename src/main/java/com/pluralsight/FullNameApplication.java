@@ -8,17 +8,19 @@ public class FullNameApplication {
 
         // The values for full name
         System.out.print("Enter your first name: ");
-        String firstName = scanner.nextLine();
+        String firstName = scanner.nextLine().trim();
         System.out.print("Enter your last name: ");
-        String lastName = scanner.nextLine();
+        String lastName = scanner.nextLine().trim();
         System.out.print("Enter your middle name: ");
-        String middleName = scanner.nextLine();
+        String middleName = scanner.nextLine().trim();
         System.out.print("Enter your suffix: ");
-        String suffix = scanner.nextLine();
+        String suffix = scanner.nextLine().trim();
+        System.out.println();
 
 
         String fullName = firstName + " " + middleName + " " + lastName + " " + suffix;
         System.out.println(fullName);
+
         scanner.close();
 
 
